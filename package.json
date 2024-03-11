@@ -1,16 +1,20 @@
 {
   "name": "measureprotocol",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Node.js library for sending custom event data to Google Analytics 4 via the Measurement Protocol.",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "google-analytics",
+    "analytics",
+    "measurement-protocol",
+    "ga4"
+  ],
+  "author": "Lucian Fialho <lucian@metricasboss.com.br>",
+  "license": "MIT",
   "dependencies": {
-    "crypto": "^1.0.1",
     "node-fetch": "^3.3.2"
   }
 }
